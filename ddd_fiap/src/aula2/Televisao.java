@@ -17,9 +17,12 @@ public class Televisao {
     public int getCanal(){
         return canal;
     }
-
     public void setCanal(int canal){
-        this.canal = canal;
+        if(canal >= 0 && <=500) {
+            this.canal = canal;
+            System.out.println("Canal alterado para: "+ this.canal);
+        }
+
     }
 
     public int getVolume(){
