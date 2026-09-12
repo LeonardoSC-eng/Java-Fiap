@@ -15,7 +15,7 @@ public class TelevisaoTeste {
 
         //Alterando os dados do objeto tv (de forma direta)
         //tv.canal = 30;
-        tv.setCanal(50);
+        tv.setCanal(100);
         //tv.volume = 100;
         tv.setVolume(60);
         //tv.ligado = true;
